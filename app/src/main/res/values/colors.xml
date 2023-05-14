@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="keyboard_bg_color">#CA0F0F</color>
+	<color name="key_border_color">#2196F3</color>
+	<color name="key_preview_background_color">#FF9800</color>
+	<color name="key_preview_border_color">#673AB7</color>
+	<color name="key_preview_text_color">#000</color>
+	<color name="key_text_color">#4CAF50</color>
+</resources>
