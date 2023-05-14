@@ -1,4 +1,4 @@
-package com.android.mycustomkeyboard
+package com.android.mycustomkeyboard.ui
 
 import android.content.Intent
 import android.os.Bundle

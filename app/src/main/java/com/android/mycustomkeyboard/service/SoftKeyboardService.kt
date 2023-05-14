@@ -1,4 +1,4 @@
-package com.android.mycustomkeyboard
+package com.android.mycustomkeyboard.service
 
 import android.inputmethodservice.InputMethodService
 import android.inputmethodservice.Keyboard
@@ -6,8 +6,11 @@ import android.inputmethodservice.KeyboardView
 import android.view.KeyEvent
 import android.view.View
 import androidx.core.content.ContextCompat
+import com.android.mycustomkeyboard.R
 import com.android.mycustomkeyboard.databinding.KeyboardLayoutBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SoftKeyboardService : InputMethodService(), KeyboardView.OnKeyboardActionListener {
 	private var keyboardLetters: Keyboard? = null
 	private var keyboardSymbolsNumbers: Keyboard? = null

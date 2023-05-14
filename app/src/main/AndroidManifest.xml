@@ -14,7 +14,7 @@
 		android:theme="@style/Theme.MyCustomKeyboard"
 		tools:targetApi="31">
 		<service
-			android:name=".SoftKeyboardService"
+			android:name=".service.SoftKeyboardService"
 			android:enabled="true"
 			android:exported="true"
 			android:label="Custom Keyboard"
@@ -27,7 +27,7 @@
 			</intent-filter>
 		</service>
 		<activity
-			android:name=".MainActivity"
+			android:name=".ui.MainActivity"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
