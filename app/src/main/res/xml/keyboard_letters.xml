@@ -3,9 +3,9 @@
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:horizontalGap="0px"
 	android:keyWidth="10%p"
-	android:keyHeight="80dp"
+	android:keyHeight="@dimen/keyboard_height"
 	android:verticalGap="0px">
- 	<Row>
+	<Row>
 		<Key
 			android:keyEdgeFlags="left"
 			android:keyLabel="q"
@@ -127,19 +127,15 @@
 			android:keyWidth="10%p"
 			android:keyLabel="," />
 		<Key
-			android:codes="-6"
-			android:keyWidth="10%p"
-			android:keyEdgeFlags="left"
-			android:keyIcon="@drawable/ic_keyboard_emoji_emotions" />
-		<Key
 			android:codes="32"
 			android:isRepeatable="true"
-			android:keyWidth="40%p" />
+			android:keyWidth="50%p"
+			android:keyLabel=" " />
 		<Key
 			android:keyWidth="10%p"
 			android:keyLabel="." />
 		<Key
-			android:codes="10"
+			android:codes="-4"
 			android:keyWidth="15%p"
 			android:keyEdgeFlags="right"
 			android:keyIcon="@drawable/ic_keyboard_enter" />

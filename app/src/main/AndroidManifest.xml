@@ -13,7 +13,7 @@
 		android:theme="@style/Theme.MyCustomKeyboard"
 		tools:targetApi="31">
 		<service
-			android:name=".SoftKeyboard"
+			android:name=".SoftKeyboardService"
 			android:enabled="true"
 			android:exported="true"
 			android:label="Custom Keyboard"

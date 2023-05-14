@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:horizontalGap="0px"
+	android:keyWidth="10%p"
+	android:keyHeight="@dimen/keyboard_height"
+	android:verticalGap="0px">
+	<Row>
+		<Key
+			android:keyEdgeFlags="left"
+			android:keyLabel="~" />
+		<Key android:keyLabel="±" />
+		<Key android:keyLabel="×" />
+		<Key android:keyLabel="÷" />
+		<Key android:keyLabel="•" />
+		<Key android:keyLabel="°" />
+		<Key android:keyLabel="`" />
+		<Key android:keyLabel="´" />
+		<Key android:keyLabel="{" />
+		<Key
+			android:keyEdgeFlags="right"
+			android:keyLabel="}" />
+	</Row>
+	<Row>
+		<Key
+			android:keyEdgeFlags="left"
+			android:keyLabel="©" />
+		<Key android:keyLabel="£" />
+		<Key android:keyLabel="€" />
+		<Key android:keyLabel="^" />
+		<Key android:keyLabel="®" />
+		<Key android:keyLabel="¥" />
+		<Key android:keyLabel="_" />
+		<Key android:keyLabel="+" />
+		<Key android:keyLabel="[" />
+		<Key
+			android:keyEdgeFlags="right"
+			android:keyLabel="]" />
+	</Row>
+	<Row>
+		<Key
+			android:codes="-3"
+			android:keyWidth="15%p"
+			android:keyEdgeFlags="left"
+			android:keyLabel="\?123" />
+		<Key android:keyLabel="¡" />
+		<Key android:keyLabel="&lt;" />
+		<Key android:keyLabel="&gt;" />
+		<Key android:keyLabel="¢" />
+		<Key android:keyLabel="|" />
+		<Key android:keyLabel="\\" />
+		<Key android:keyLabel="¿" />
+		<Key
+			android:codes="-5"
+			android:isRepeatable="true"
+			android:keyWidth="15%p"
+			android:keyEdgeFlags="right"
+			android:keyIcon="@drawable/ic_keyboard_backspace" />
+	</Row>
+	<Row>
+		<Key
+			android:codes="-2"
+			android:keyWidth="15%p"
+			android:keyEdgeFlags="left"
+			android:keyLabel="abc" />
+		<Key
+			android:keyWidth="10%p"
+			android:keyLabel="," />
+		<Key
+			android:codes="32"
+			android:isRepeatable="true"
+			android:keyWidth="50%p" />
+		<Key
+			android:keyWidth="10%p"
+			android:keyLabel="." />
+		<Key
+			android:codes="-4"
+			android:keyWidth="15%p"
+			android:keyEdgeFlags="right"
+			android:keyIcon="@drawable/ic_keyboard_enter" />
+	</Row>
+</Keyboard>

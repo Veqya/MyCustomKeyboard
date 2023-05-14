@@ -7,4 +7,5 @@
 	<dimen name="key_preview_text_size">16sp</dimen>
 	<dimen name="key_preview_padding">4dp</dimen>
 	<dimen name="key_text_size">22sp</dimen>
+	<dimen name="keyboard_height">80dp</dimen>
 </resources>

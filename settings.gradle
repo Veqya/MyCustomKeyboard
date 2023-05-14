@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "My Custom Keyboard"
 include ':app'
-include ':common'
