@@ -2,4 +2,6 @@
 <resources>
 	<string name="subtype_en">EN</string>
 	<string name="app_name">My Custom Keyboard</string>
+	<string name="testing_hint">Write anything for testing</string>
+	<string name="activity_main_settings_label_text">On Screen</string>
 </resources>
